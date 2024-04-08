@@ -15,8 +15,8 @@ const Application = () => {
       <h2 className={`${fjalla.className} text-3xl md:text-5xl font-semibold text-[#95A5A6]`}>
         Our Applications
       </h2>
-      <div className="overflow-hidden h-[200px] w-full relative">
-        <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-Application">
+      <div className="overflow-hidden h-[92px] w-full relative">
+        <div className="w-[4000px] h-[150px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-Application">
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
               {/* Wrap each Image with an anchor tag */}
