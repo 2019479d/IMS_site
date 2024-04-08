@@ -5,6 +5,11 @@ export const navLinks = [
     ariaLabel: "View more details about the company",
   },
   {
+    name: "Applications",
+    href: "/#application",
+    ariaLabel: "View the applications that the company collaborates with",
+  },
+  {
     name: "Services",
     href: "/#service",
     ariaLabel: "View a glimps of what services the company provides",
@@ -27,4 +32,15 @@ export const partnerImages = [
   { alt: "Hansford Sensors", imgUrl: "/cmp03.png" ,websiteUrl:"https://hansfordsensors.com"},
   { alt: "Wilcoxen Sensors", imgUrl: "/cmp04.png" ,websiteUrl:"https://wilcoxon.com"},
   { alt: "KEMO", imgUrl: "/cmp05.png" ,websiteUrl:"https://kemo.com"},
+];
+
+export const applicationImages = [
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},
+  { alt: " Engine Testing", imgUrl: "/Engine_Testing.jpeg"},  
 ];
