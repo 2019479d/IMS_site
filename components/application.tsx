@@ -19,8 +19,6 @@ const Application = () => {
         <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-partner">
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
-              {/* Wrap each Image with an anchor tag */}
-              {/* <a href={item.websiteUrl} target="_blank" rel="noopener noreferrer"> */}
               <div className="flex flex-col h-[150px] items-center justify-center">
                 <Image
                   src={item.imgUrl}
@@ -29,7 +27,7 @@ const Application = () => {
                   height={100}
                   className="w-auto h-auto object-contain"
                 />
-                <p className="text-xs">{item.name}</p> {/* Add name below the image */}
+                <p className="text-xs text-center">{item.name}</p>
               </div>
               {/* </a> */}
             </React.Fragment>
