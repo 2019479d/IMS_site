@@ -16,12 +16,12 @@ const Application = () => {
         Our Applications
       </h2>
       <div className="overflow-hidden h-[92px] w-full relative">
-        <div className="w-[4000px] h-[150px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-Application">
+        <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-Application">
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
               {/* Wrap each Image with an anchor tag */}
               {/* <a href={item.websiteUrl} target="_blank" rel="noopener noreferrer"> */}
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col h-[150px] items-center justify-center">
                 <Image
                   src={item.imgUrl}
                   alt={item.alt}
