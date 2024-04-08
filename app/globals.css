@@ -34,9 +34,6 @@
 .marquee-partner {
   animation: marquee 120s linear infinite;
 }
-.marquee-application {
-  animation: marquee 120s linear infinite;
-}
 
 @keyframes marquee {
   100% {

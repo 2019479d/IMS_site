@@ -40,8 +40,4 @@ export const applicationImages = [
   { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
   { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
   { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
-  { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
-  { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
-  { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
-  { alt: "Engine Testing", imgUrl: "/Engine_Testing.jpeg", name:"Engine Testing"},
 ];
