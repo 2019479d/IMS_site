@@ -28,6 +28,7 @@ const Application = () => {
                         height={100}
                         className="w-auto h-auto object-contain"
                     />
+                    <p className="text-xs">{item.name}</p> {item.name}
                   {/* </a> */}
                 </React.Fragment>
             ))}
