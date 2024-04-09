@@ -19,7 +19,7 @@ const Partner = () => {
           <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-partner">
             {repeatImages.map((item, index) => (
                 <React.Fragment key={index}>
-                  {/* Wrap each Image with an anchor tag */}
+                  <div className="flex flex-col h-[200px] items-center justify-center">
                   <a href={item.websiteUrl} target="_blank" rel="noopener noreferrer">
                     <Image
                         src={item.imgUrl}
@@ -28,7 +28,7 @@ const Partner = () => {
                         height={100}
                         className="w-auto h-auto object-contain"
                     />
-                  </a>
+                  </a></div>
                 </React.Fragment>
             ))}
           </div>
