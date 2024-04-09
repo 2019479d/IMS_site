@@ -33,6 +33,17 @@ const Application = () => {
           ))}
         </div>
       </div>
+      <div className="overflow-hidden h-[200px] w-full relative">
+        <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-application">
+          {repeatImages.map((item, index) => (
+            <React.Fragment key={index}>
+              <div className="flex flex-col h-[200px] w-[200px] items-center justify-center">
+                <p className="text-xs text-center">{item.alt}</p>
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
