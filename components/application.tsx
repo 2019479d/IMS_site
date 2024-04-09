@@ -27,9 +27,9 @@ const Application = () => {
                   width={100}
                   height={100}
                   className="w-auto h-auto object-contain"
-                />
+                /></div>
                 <p className="text-xs text-center">{item.alt}</p>
-              </div></div>
+              </div>
             </React.Fragment>
           ))}
         </div>
