@@ -19,8 +19,8 @@ const Application = () => {
         <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-application">
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
-              <div className="flex flex-col h-[150px] items-center justify-center">
-              <div className="h-[100px]">
+              <div className="flex flex-col h-[150px] w-[4000px] items-center justify-center">
+              <div className="h-[100px] w-[4000px]">
                 <Image
                   src={item.imgUrl}
                   alt={item.alt}
