@@ -20,6 +20,7 @@ const Application = () => {
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
               <div className="flex flex-col h-[150px] items-center justify-center">
+              <div className="h-[100px]">
                 <Image
                   src={item.imgUrl}
                   alt={item.alt}
@@ -28,8 +29,7 @@ const Application = () => {
                   className="w-auto h-auto object-contain"
                 />
                 <p className="text-xs text-center">{item.alt}</p>
-              </div>
-              {/* </a> */}
+              </div></div>
             </React.Fragment>
           ))}
         </div>
