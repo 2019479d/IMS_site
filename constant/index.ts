@@ -43,7 +43,7 @@ export const applicationImages = [
   { alt: "Hydro Power Plants Monitoring", imgUrl: "/Hydro_Power_Plants_Monitoring.jpg", name:"Engine Testing"},
   { alt: "PV Power Plant Monitoring & Control", imgUrl: "/PV_Power_Plant_Monitoring_&_Control.svg", name:"Engine Testing"},
   { alt: "Weather Stations", imgUrl: "/Weather_Stations.png", name:"Engine Testing"},
-  { alt: "Structural Health Monitoring", imgUrl: "/Structural_Health_Monitoring.png", name:"Engine Testing"},
+  { alt: "Structural Health Monitoring", imgUrl: "/Structural_Health_Monitoring.svg", name:"Engine Testing"},
   { alt: "Bridge Monitoring", imgUrl: "/Bridge_Monitoring.png", name:"Engine Testing"},
   { alt: "Condition Monitoring", imgUrl: "/Condition_Monitoring.png", name:"Engine Testing"},
   { alt: "Oil and Gas", imgUrl: "/Oil_and_Gas.svg", name:"Engine Testing"},
