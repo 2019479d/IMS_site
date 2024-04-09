@@ -24,8 +24,8 @@ const Partner = () => {
                     <Image
                         src={item.imgUrl}
                         alt={item.alt}
-                        width={100}
-                        height={100}
+                        width={250}
+                        height={250}
                         className="w-auto h-auto object-contain"
                     />
                   </a>
