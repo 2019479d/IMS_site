@@ -23,12 +23,9 @@ const Application = () => {
                 <Image
                   src={item.imgUrl}
                   alt={item.alt}
-                  // width={100}
-                  // height={100}
-                  // className="w-auto h-auto object-fill"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-md"
+                  width={100}
+                  height={100}
+                  className="w-auto h-auto object-fill"
                 />
                 <p className="text-xs text-center">{item.alt}</p>
               </div>
