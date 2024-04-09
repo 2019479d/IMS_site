@@ -27,8 +27,6 @@ const Application = () => {
                   height={100}
                   className="w-auto h-auto object-fill"
                 />
-              </div>
-              <div className="flex flex-col h-[200px] w-[200px] items-center justify-center">
                 <p className="text-xs text-center">{item.alt}</p>
               </div>
             </React.Fragment>
