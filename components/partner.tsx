@@ -26,7 +26,7 @@ const Partner = () => {
                         alt={item.alt}
                         width={200}
                         height={200}
-                        className="w-auto h-auto object-contain"
+                        className="w-auto h-auto object-contain object-fill"
                     />
                   </a></div>
                 </React.Fragment>
