@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 
 const Application = () => {
-  const repeatFactor = 7;
+  const repeatFactor = 16;
   const repeatImages = Array.from({ length: repeatFactor }, () => applicationImages).flat();
 
   return (
@@ -16,7 +16,7 @@ const Application = () => {
         Our Applications
       </h2>
       <div className="overflow-hidden h-[200px] w-full relative">
-        <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-partner">
+        <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-application">
           {repeatImages.map((item, index) => (
             <React.Fragment key={index}>
               <div className="flex flex-col h-[150px] items-center justify-center">
@@ -27,7 +27,7 @@ const Application = () => {
                   height={100}
                   className="w-auto h-auto object-contain"
                 />
-                <p className="text-xs text-center">{item.name}</p>
+                <p className="text-xs text-center">{item.alt}</p>
               </div>
               {/* </a> */}
             </React.Fragment>
