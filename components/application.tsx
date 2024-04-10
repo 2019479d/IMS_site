@@ -23,9 +23,7 @@ const Application = () => {
                 <Image
                   src={item.imgUrl}
                   alt={item.alt}
-                  width={100}
-                  height={100}
-                  className="object-fill"
+                  className="object-fill h-[100px] w-[100px]"
                 />
                 <p className="text-xs text-center truncate">{item.alt}</p>
               </div>
