@@ -27,7 +27,7 @@ const Application = () => {
                   height={100}
                   className="w-auto h-auto object-fill"
                 />
-                <p className="text-xs text-center text-nowrap">{item.alt}</p>
+                <p className="text-xs text-center truncate">{item.alt}</p>
               </div>
             </React.Fragment>
           ))}
