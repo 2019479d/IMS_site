@@ -80,20 +80,20 @@ const Footer = () => {
       <ul className="text-sm flex flex-col items-center md:items-start gap-1">
         <li>
           <Link
+            href="mailto:support@imsaasia.com"
+            className="hover:underline"
+            aria-label="Email product and service provider"
+          >
+            support@imsaasia.com
+          </Link>
+        </li>
+        <li>
+          <Link
             href="tel:+6593398013"
             className="hover:underline"
             aria-label="Contact product and service provider"
           >
             HP: +65 9339 8013
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="support@imsaasia.com"
-            className="hover:underline"
-            aria-label="Email product and service provider"
-          >
-            mailto:support@imsaasia.com
           </Link>
         </li>
       </ul>
