@@ -13,7 +13,7 @@ const Application = () => {
       id="application"
     >
       <h2 className={`${fjalla.className} text-3xl md:text-5xl font-semibold text-[#95A5A6]`}>
-        Our Applications
+        Applications
       </h2>
       <div className="overflow-hidden h-[200px] w-full relative">
         <div className="w-[4000px] absolute top-0 left-0 bottom-0 flex items-center justify-between flex-nowrap translate- gap-10 marquee-application">
