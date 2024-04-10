@@ -84,16 +84,16 @@ const Footer = () => {
             className="hover:underline"
             aria-label="Contact product and service provider"
           >
-            Contact via Telephone
+            HP: +65 9339 8013
           </Link>
         </li>
         <li>
           <Link
-            href="mailto:support@imsaasia.com"
+            href="support@imsaasia.com"
             className="hover:underline"
             aria-label="Email product and service provider"
           >
-            Contact via Email
+            mailto:support@imsaasia.com
           </Link>
         </li>
       </ul>
