@@ -38,7 +38,7 @@ const Animation = () => {
             height={130}
             className="hidden group-hover:block absolute -bottom-[8rem] left-0 rounded-lg"
           />
-          <span className="font-semibold text-white">Aero Space</span>
+          <span className="font-semibold text-white">Aerospace</span>
 
         </div>
 
@@ -154,7 +154,7 @@ const Animation = () => {
             style={{ opacity: 0.42 }} // Adjust the opacity value as needed (from 0 to 1)
 
           />
-          <span className="font-semibold text-white">Testing</span>
+          <span className="font-semibold text-white">Power Generation</span>
         </div>
         <div className="-z-1 absolute bottom-[45%] left-[20%] rounded-md bg-gradient-to-r from-orange-500 to-black/10 w-[14%] h-[5px] plane-anim-1"></div>
         <div className="-z-1 absolute bottom-[42%] left-[23.5%] rounded-md bg-gradient-to-r from-orange-500 to-black/10 w-[14%] h-[5px] plane-anim-2"></div>
