@@ -46,7 +46,7 @@ export const applicationImages = [
   { alt: "Structural Health Monitoring", imgUrl: "/Structural_Health_Monitoring.svg", name:"Engine Testing"},
   { alt: "Bridge Monitoring", imgUrl: "/Bridge_Monitoring.png", name:"Engine Testing"},
   { alt: "Condition Monitoring", imgUrl: "/Condition_Monitoring.png", name:"Engine Testing"},
-  { alt: "Oil and Gas", imgUrl: "/Oil_and_Gas.svg", name:"Engine Testing"},
+  { alt: "Oil_and_Gas", imgUrl: "/Oil_and_Gas.svg", name:"Engine Testing"},
   { alt: "Defenseg", imgUrl: "/Defense.png", name:"Engine Testing"},
   { alt: "Railway", imgUrl: "/Railway.png", name:"Engine Testing"},
   { alt: "Pharmaceutical", imgUrl: "/Pharmaceutical.png", name:"Engine Testing"},
