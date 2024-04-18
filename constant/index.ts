@@ -47,7 +47,7 @@ export const applicationImages = [
   { alt: "         Bridge Monitoring         ", imgUrl: "/Bridge_Monitoring.png" },
   { alt: "       Condition Monitoring        ", imgUrl: "/Condition_Monitoring.png" },
   { alt: "            Oil and Gas            ", imgUrl: "/Gas_&_Oil.svg" },
-  { alt: "              Defenseg             ", imgUrl: "/Defense.png" },
+  { alt: "              Defence              ", imgUrl: "/Defense.png" },
   { alt: "              Railway              ", imgUrl: "/Railway.png" },
   { alt: "           Pharmaceutical          ", imgUrl: "/Pharmaceutical.png" },
   { alt: "          Fusion Reactors          ", imgUrl: "/Fusion_Reactors.png" },
