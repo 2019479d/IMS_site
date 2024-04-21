@@ -32,7 +32,7 @@ const Footer = () => {
         IMS SYSTEMS PTE LTD
       </Link>
       <p className="text-black text-sm dark:text-white">PROFESSIONAL | INNOVATIVE | RELIABLE</p>
-      <p className="text-gray-500 text-sm dark:text-white">Co Reg: 201413518WE</p>
+      <p className="text-gray-500 text-sm dark:text-white">Co Reg: 201413518W</p>
     </div>
     <div className="flex flex-col items-center md:items-start gap-1">
       <h4 className="uppercase font-medium inline-block">Company</h4>
